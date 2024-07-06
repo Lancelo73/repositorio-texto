@@ -1,0 +1,17 @@
+diferencia de git y github 
+
+Saludos.
+
+github es en la nube 
+
+git init
+
+voy a crear un repositorio 
+
+git add Mi codigo3.txt
+
+agregar nuestro codigo
+
+git comit -m " version 3 actualizamos las caracteristicas"
+
+generar una actualizacion de nuestro codigo  
