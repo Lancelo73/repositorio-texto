@@ -1,0 +1,37 @@
+vimos para crear un repositorio desde la linea de y subirlo a la nube(github) tambien vimos como eliminar la carpeta del repositorio o si iniciastes en una carpeta que no querias 
+ademas conectar desde el ssh al mandar la imagen estando en la nube pueden itersectarlo el archivo y para prevenir se puede 
+encriptar el archivo por medio de ssh ingresando una contraseña que solo lo conocera la persona del repositorio y la otra persona que va a recivir el archivo 
+  
+
+
+es para eliminar todo 
+
+git remote remove origin 
+
+se elimina la carpeta .git del repositorio
+
+rm - rf .git
+
+crear llave ssh git guardantela en una carpeta oculta recomendar una contraseña (passphrase)
+
+ssh-keygen -t rsa -b 4090 -c "taboada7334@gmail.com"
+
+en windows se ingresa graficamente por la caperta hasta encontrar la carpeta .ssh
+
+ingresas a la carpeta .ssh
+
+cd ~/.ssh
+
+aqui añades en linux el ssh ingresando la contraseña privada 
+
+ssh-add ~/ssh/id_rsa
+
+ssh-add ~
+
+cambiar la url a ssh
+
+git remote set-url origin ssh
+
+le va a hacer un push a la rama main
+
+git push origin main

@@ -1,0 +1,79 @@
+diferencia de git y github 
+
+github es en la nube 
+
+git log
+
+nos muestra todos los commit 
+
+git init
+
+voy a crear un repositorio en la rama madre 
+ 
+git status
+
+nos muestra el statu de nuestros archivos
+
+git add  "codigo 1.txt"
+
+agregar nuestro codigo
+
+git add . 
+
+es para agregar todo de la carpeta actual
+
+git commit -m " version 3 actualizamos las caracteristicas"
+git commit -am " version 3 actualizamos las caracteristicas"
+
+generar una actualizacion de nuestro codigo 
+
+
+
+este comando es para linux y es para ver el contenido de mi archivo de texto
+
+cat "codigo 1.txt"
+
+este comando es para Windows y es para ver el contenido de mi archivo de texto
+
+more codigo 1.txt
+
+es para tener la consola limpia
+
+clear 
+
+es para ver los comandos que se an estado utilizando
+
+history
+
+este comando ayuda a eliminar
+
+rm "codigo 1.txt"
+
+es para crear un archivo
+
+touch "codigo 1.txt"
+
+es para conservar el archivo 
+
+git rm --cached "codigo 1.txt
+
+sirve para mover entre commit
+
+git checkout b373f23c76338315289ab492d71f936fb49c6226
+
+salen todas las configuraciones en lista
+
+git config --list 
+
+este comando es para modificar de modo global el nombre de usuario 
+
+git config --global user.name "Lancelo73"
+
+este comando es para modificar de modo global el gmail
+
+git config --global user.email "taboada7334@gmail.com"
+
+nos va a decir todas las ramas que tenemos 
+
+git branch 
+

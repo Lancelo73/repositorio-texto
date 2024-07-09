@@ -1,0 +1,35 @@
+muestra las lineas modificadas
+
+git log --stat
+
+agrega una nueva rama appbar
+
+git branch appbar
+
+crea un commit (version) en la rama appbar
+
+git commit -am "cambios en appbar (version 1)"
+
+se junta la segunda rama con la rama principal solucionando algun error qu haya tenido esa version 
+
+git merge appbar 
+
+añadimos el repositorio hacia github
+
+git remote add origin https://github.com/Lancelo73/textoRepositorio.git
+
+nos dice el nombre de la rama
+
+git remote
+
+nos dira que tenemos un origin para jalar cosas y otro origin es aventar cosas
+
+git remote -v 
+
+le va a hacer un push a la rama master 
+
+git push origin master
+
+vamos a forzar para fucionar todo  
+
+git pull origin main  --allow-unrelated-histories

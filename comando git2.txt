@@ -1,0 +1,45 @@
+git show
+
+nos muestra lo que se modifico de un commit a otro  
+
+esc + shit + zzz
+
+es para salir de bing
+
+con la q se sale de los commit
+
+quiero ver las diferencia de un commit con otro commit hay que darle diferencia de orden para comparar anterior - actual
+
+git diff 318d358e3a775378b033e25b108505559572946a b373f23c76338315289ab492d71f936fb49c6226 
+
+es unir la ramas donde arreglamos el bug a la rama principal
+ 
+git merge
+
+es la version actual la que se va a utilizar
+
+master 
+
+me vas a resetiar todo como estaba y pierdes todos los cambios
+
+git reset b373f23c76338315289ab492d71f936fb49c6226 --hard
+
+volvemos a la version al estar en staging (agregado git add "codigo 1.txt") se siguen conservando 
+
+git reset b373f23c76338315289ab492d71f936fb49c6226 --soft
+
+es subirlo a la nube que seria hacia github
+
+git push 
+
+es para clonar el repositorio desde la nube
+
+git clone url 
+
+es para traer la actualizacion y te actualiza las versiones
+  
+git poll
+
+traemos la actualizacion 
+
+git fetch   
