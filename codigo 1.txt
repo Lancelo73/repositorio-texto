@@ -4,6 +4,10 @@ aprendo un nuevo lenguaje
 
 hola a todos buenas
 
+<<<<<<< HEAD
 123456789
 
 abcded
+=======
+prueba 
+>>>>>>> errortex
